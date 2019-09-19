@@ -96,7 +96,7 @@ workflows:
   build:
     jobs:
       - "api-26"
-      - "api-27":
+      - "api-27"
       - "api-28":
           requires:
             - "api-26"
